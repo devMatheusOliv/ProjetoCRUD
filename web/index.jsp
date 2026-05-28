@@ -19,7 +19,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                 <head>
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Sistema de Loja</title>
+                    <title>Loja de Tenis</title>
                     <link
                         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600&display=swap"
                         rel="stylesheet">
@@ -350,11 +350,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 
                     <div class="main-wrapper header-bar">
                         <div class="header-left">
-                            <h1>&#128465; Sistema de Loja</h1>
+                            <h1>Loja de Tenis</h1>
                         </div>
                         <div class="header-right">
-                            <span class="user-badge">&#128100; <%= usuarioLogado %></span>
-                            <a href="ControleLogin?acao=logout" class="btn-logout">&#128682; Sair</a>
+                            <span class="user-badge"><%= usuarioLogado %></span>
+                            <a href="ControleLogin?acao=logout" class="btn-logout">Sair</a>
                         </div>
                     </div>
 
@@ -531,7 +531,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                                             
                                             
                                             <div class="form-group" style="grid-column: span 2; margin-top: 10px; margin-bottom: 14px;">
-                                                <label style="font-weight: 700; color: #436d52; margin-bottom: 8px;">&#127873; OPCIONAIS ADICIONAIS (DECORATOR)</label>
+                                                <label style="font-weight: 700; color: #436d52; margin-bottom: 8px;">OPCIONAIS ADICIONAIS (DECORATOR)</label>
                                                 <div style="display: flex; flex-direction: column; gap: 8px; background: #fdfbf8; border: 1px solid #d1e0d7; padding: 12px; border-radius: 6px;">
                                                     <label style="display: flex; align-items: center; gap: 8px; text-transform: none; font-size: 0.85rem; font-weight: normal; color: #333; margin-bottom: 0; cursor: pointer;">
                                                         <input type="checkbox" name="desconto2pares" value="on" style="cursor: pointer;">

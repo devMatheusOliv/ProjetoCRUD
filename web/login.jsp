@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login — Sistema de Loja</title>
+    <title>Login — Loja de Tenis</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after {
@@ -258,7 +258,7 @@
 
         <div class="brand">
             <span class="brand-icon">👟</span>
-            <h1>Sistema de Loja</h1>
+            <h1>Loja de Tenis</h1>
             <p>Gestão de Produtos &amp; Vendas</p>
         </div>
 
@@ -268,7 +268,6 @@
 
             <% if (erro) { %>
             <div class="alert-error">
-                <span>⚠️</span>
                 <span>Usuário ou senha incorretos. Tente novamente.</span>
             </div>
             <% } %>
@@ -277,7 +276,7 @@
                 <div class="form-group">
                     <label for="txtUsuario">Usuário</label>
                     <div class="input-wrap">
-                        <span class="input-icon">👤</span>
+
                         <input type="text" name="txtUsuario" id="txtUsuario"
                                placeholder="Digite seu usuário" required autofocus>
                     </div>
@@ -286,7 +285,7 @@
                 <div class="form-group">
                     <label for="txtSenha">Senha</label>
                     <div class="input-wrap">
-                        <span class="input-icon">🔒</span>
+
                         <input type="password" name="txtSenha" id="txtSenha"
                                placeholder="Digite sua senha" required>
                     </div>
@@ -296,7 +295,6 @@
                     <span class="btn-shadow"></span>
                     <span class="btn-edge"></span>
                     <span class="btn-front">
-                        <span>🚀</span>
                         ENTRAR
                     </span>
                 </button>

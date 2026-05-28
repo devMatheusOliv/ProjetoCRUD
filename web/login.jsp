@@ -303,7 +303,7 @@
             </form>
         </div>
 
-        <p class="footer-note">Sistema CRUD OO MVC DAO &mdash; Railway</p>
+
     </div>
 
 </body>

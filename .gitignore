@@ -1,0 +1,29 @@
+# NetBeans build output (temporário, não é necessário)
+build/
+# dist/ NÃO ignorado — o Railway usa o WAR de dist/
+
+# NetBeans private config (caminhos locais de cada máquina)
+nbproject/private/
+
+# Arquivos compilados
+*.class
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Archives
+!dist/*.war
+
+# Temporary
+tmp/
